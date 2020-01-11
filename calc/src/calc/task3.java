@@ -26,6 +26,7 @@ public class task3 {
 
 		System.out.println("平均(3で割った時:)" + sum / TaskTwo);
 		System.out.println("平均(3.0で割った時:)" + sum / TaskOne);
+		
 
 
 
