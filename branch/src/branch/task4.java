@@ -28,8 +28,8 @@ public class task4 {
 			sc.close();
 			sc2.close();
 
-		}
+			}
 
 
 
-	}
+			}

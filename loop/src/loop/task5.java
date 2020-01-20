@@ -58,53 +58,46 @@ public class task5 {
 		System.out.println("");
 
 		//5の段
-		num1 = 5;
-		num2 = 1;
-		while(num1*num2<=45) {
-			System.out.print(num1*num2 + " ");
-			num2++;
-		}
+		for(int i = 1; i <= 9; i++) {
+		num2 = 5;
+		System.out.print(i * num2 + " ");
 
+									}
 		System.out.println("");
 
 		//6の段
-		num1 = 6;
-		num2 = 1;
-		while(num1*num2<=54) {
-			System.out.print(num1*num2 + " ");
-			num2++;
-		}
+		for(int i = 1; i <= 9; i++) {
+		num2 = 6;
+		System.out.print(i * num2 + " ");
+
+									}
 
 		System.out.println("");
 
 		//7の段
-		num1 = 7;
-		num2 = 1;
-		while(num1*num2<=63) {
-			System.out.print(num1*num2 + " ");
-			num2++;
-		}
+		for(int i = 1; i <= 9; i++) {
+		num2 = 7;
+		System.out.print(i * num2 + " ");
+
+									}
 
 		System.out.println("");
 
 		//8の段
-		num1 = 8;
-		num2 = 1;
-		while(num1*num2<=72) {
-			System.out.print(num1*num2 + " ");
-			num2++;
-		}
+		for(int i = 1; i <= 9; i++) {
+		num2 = 8;
+		System.out.print(i * num2 + " ");
+
+									}
 
 		System.out.println("");
 
 		//9の段
-		num1 = 9;
-		num2 = 1;
-		while(num1*num2<=81) {
-			System.out.print(num1*num2 + " ");
-			num2++;
-		}
+		for(int i = 1; i <= 9; i++) {
+		num2 = 9;
+		System.out.print(i * num2 + " ");
 
+									}
 	}
 
 }

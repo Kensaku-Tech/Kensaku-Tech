@@ -33,9 +33,9 @@ public abstract class task6 {
 			b = "unknown";
 		}
 
-	System.out.print(num + " -> " + b);
-	sc.close();
+		System.out.print(num + " -> " + b);
+		sc.close();
 
 		}
-	}
+		}
 

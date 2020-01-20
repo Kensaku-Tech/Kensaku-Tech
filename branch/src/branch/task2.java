@@ -12,9 +12,9 @@ public class task2 {
 		int a = sc.nextInt();
 
 		if(a < 10) {
-		System.out.println("値:0" + a);
+		 System.out.println("値:0" + a);
 		}else {
-		System.out.println("値:" + a);
+		 System.out.println("値:" + a);
 		}
 
 		sc.close();

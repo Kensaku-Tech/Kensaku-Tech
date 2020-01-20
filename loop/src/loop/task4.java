@@ -19,12 +19,12 @@ public class task4 {
 			 System.out.print(a);
 			 if(i > 1) {
 				 System.out.print(",");
-			 }
-			 }
-		i--;
-		}
+			 			}
+			 				}
+		 i--;
+						}
 
-	sc.close();
+		sc.close();
 
 	}
 
