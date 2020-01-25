@@ -16,9 +16,7 @@ public abstract class task5 {
 
 		Scanner sc1 = new Scanner(System.in);
 		String str1 = sc1.nextLine();
-
-		Scanner sc2 = new Scanner(System.in);
-		String str2 = sc2.nextLine();
+		String str2 = sc1.nextLine();
 
 		//文字列2つを受け取る
 
@@ -27,7 +25,6 @@ public abstract class task5 {
 		//文字列を出力する
 
 		sc1.close();
-		sc2.close();
 
 
 

@@ -9,10 +9,8 @@ public class task3 {
 
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		Scanner sc2 = new Scanner(System.in);
-		int num2 = sc2.nextInt();
-		Scanner sc3 = new Scanner(System.in);
-		int num3 = sc3.nextInt();
+		int num2 = sc.nextInt();
+		int num3 = sc.nextInt();
 
 		System.out.println(num);
 		System.out.println(num2);
@@ -26,8 +24,8 @@ public class task3 {
 
 		System.out.println("平均(3で割った時:)" + sum / TaskTwo);
 		System.out.println("平均(3.0で割った時:)" + sum / TaskOne);
-		
 
+		sc.close();
 
 
 

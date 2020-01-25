@@ -15,17 +15,9 @@ public class task7 {
 
 		switch(days){
 			case "月曜":
-				System.out.println("午前診療と午後診療があります");
-				break;
 			case "火曜":
-				System.out.println("午前診療と午後診療があります");
-				break;
 			case "水曜":
-				System.out.println("午前診療と午後診療があります");
-				break;
 			case "木曜":
-				System.out.println("午前診療と午後診療があります");
-				break;
 			case "金曜":
 				System.out.println("午前診療と午後診療があります");
 				break;
