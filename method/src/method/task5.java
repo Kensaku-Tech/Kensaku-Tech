@@ -25,7 +25,7 @@ public class task5 {
 			TorF = true;
 		}else{
 			TorF = false;
-				}
+		}
 
 		System.out.println(TorF);
 

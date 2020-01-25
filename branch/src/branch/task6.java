@@ -36,6 +36,6 @@ public abstract class task6 {
 		System.out.print(num + " -> " + b);
 		sc.close();
 
-		}
-		}
+	}
+}
 

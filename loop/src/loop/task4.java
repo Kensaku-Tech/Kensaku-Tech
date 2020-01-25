@@ -14,15 +14,15 @@ public class task4 {
 
 		int i = num;
 		while(i >= 1) {
-		int a = num / i;
-		 if(num % i == 0) {
-			 System.out.print(a);
-			if(i > 1) {
-				System.out.print(",");
-			 			}
-			 				}
-		i--;
-						}
+			int a = num / i;
+			if(num % i == 0) {
+				System.out.print(a);
+				if(i > 1) {
+					System.out.print(",");
+				}
+			}
+			i--;
+		}
 
 		sc.close();
 

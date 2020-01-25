@@ -25,11 +25,11 @@ public class task4 {
 		}else {
 			System.out.println("numBはnumAの約数ではありません。");
 		}
-			sc.close();
-			sc2.close();
+		sc.close();
+		sc2.close();
 
-			}
+	}
 
 
 
-			}
+}
