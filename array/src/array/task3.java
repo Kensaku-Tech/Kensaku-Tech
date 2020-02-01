@@ -18,10 +18,10 @@ public class task3 {
 			int num = random.nextInt(10);
 			array[i] = num;
 			System.out.print(num);
-			 if(i < 5) {
-				 System.out.print(",");
-			 			}
-									}
+			if(i < 5) {
+				System.out.print(",");
+			}
+		}
 		System.out.print("]");
 		System.out.println("");
 
@@ -32,8 +32,8 @@ public class task3 {
 		for(int big = 0; big < array.length; big++) {
 			if(max < array[big]) {
 				max = array[big];
-								}
-													}
+			}
+		}
 
 		System.out.print(max);
 
@@ -45,10 +45,10 @@ public class task3 {
 		for(int small = 0; small < array.length; small++) {
 			if(min > array[small]) {
 				min = array[small];
-									}
-															}
+			}
+		}
 		System.out.print(min);
 
-		}
 	}
+}
 

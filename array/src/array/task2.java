@@ -16,10 +16,10 @@ public class task2 {
 			i--;
 			if(i >= 1) {
 				System.out.print(",");
-						}
-					}
+			}
+		}
 
-			System.out.println("");
+		System.out.println("");
 
 		ar = 1;
 		while(ar <= 7) {
@@ -29,9 +29,9 @@ public class task2 {
 			i++;
 			if(i < 7) {
 				System.out.print(",");
-						}
-					}
-
-
+			}
 		}
+
+
 	}
+}
