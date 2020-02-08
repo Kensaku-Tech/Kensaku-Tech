@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/dataOperation/Result" method="get">
+		<p>
+			名前:<input type="text" name="name">
+		</p>
+		<p>
+			性別:男<input type="radio" name="button" value="男"> 女<input
+				type="radio" name="button" value="女">
+		</p>
+		<p>お問い合わせ種類</p>
+		<select name="asks">
+			<option value="1.製品について">1.製品について</option>
+			<option value="2.不具合やクレーム">2.不具合やクレーム</option>
+			<option value="3.アフターサポート">3.アフターサポート</option>
+		</select>
+		<p>お問い合わせ内容</p>
+		<textarea name="askingarea" rows="5" cols="30">150文字以内で入力してください</textarea>
+		<p>
+			<input type="submit" name="submitBtn" value="送信">
+		</p>
+	</form>
+</body>
+</html>
