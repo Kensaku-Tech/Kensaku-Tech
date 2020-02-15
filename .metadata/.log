@@ -6800,3 +6800,363 @@ java.lang.IllegalArgumentException: timeout value is negative
 
 !ENTRY org.eclipse.ui 2 2 2020-02-10 13:36:29.751
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-02-14 20:54:02.351 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.4
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-02-14 20:54:08.057
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-14 20:54:08.057
+!MESSAGE CTRL+SHIFT+T の競合が発生しました:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c37c36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2060df8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:13.666
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:13.682
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5911d6e[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=1025)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:13.682
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:13.838
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2020-02-14 20:54:14.244
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-14 20:54:14.244
+!MESSAGE CTRL+- の競合が発生しました:
+Binding(CTRL+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40ee8512,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e365c33,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bfa2801,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.514
+!MESSAGE Boot LS startup time from start to initialized: 3557ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.529
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fHKvdCZzisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.534
+!MESSAGE subscribing to classpath changes: sts4.classpath.fHKvdCZz isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.537
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.539
+!MESSAGE subsribers = {sts4.classpath.fHKvdCZz=Send Classpath Notifications(113)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.539
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.540
+!MESSAGE project dataOperation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.541
+!MESSAGE project ServletLesson ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.541
+!MESSAGE Preparing classpath changed notification dataOperation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.542
+!MESSAGE project Batch ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.542
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.543
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.543
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.544
+!MESSAGE project array ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.545
+!MESSAGE project basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.545
+!MESSAGE classpath=33 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.546
+!MESSAGE project branch ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.546
+!MESSAGE project calc ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.547
+!MESSAGE project html ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.548
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz dataOperation false 33
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.548
+!MESSAGE project instance ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.548
+!MESSAGE Preparing classpath changed notification ServletLesson
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.549
+!MESSAGE project jsp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.549
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.550
+!MESSAGE project loop ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.550
+!MESSAGE classpath=33 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.551
+!MESSAGE project method ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.551
+!MESSAGE project orientation ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.552
+!MESSAGE project standardClass ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.552
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz ServletLesson false 33
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.553
+!MESSAGE project variable ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.553
+!MESSAGE Preparing classpath changed notification Batch
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.554
+!MESSAGE project vrietyArray ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.554
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.555
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.555
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.555
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fHKvdCZz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.556
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz Batch false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.557
+!MESSAGE Preparing classpath changed notification array
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.557
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.558
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.559
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz array false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.560
+!MESSAGE Preparing classpath changed notification basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.560
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.561
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.562
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz basic false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.562
+!MESSAGE Preparing classpath changed notification branch
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.563
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.564
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.565
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz branch false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.565
+!MESSAGE Preparing classpath changed notification calc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.566
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.567
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.568
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz calc false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.569
+!MESSAGE Preparing classpath changed notification html
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.570
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.571
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.573
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz html false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.574
+!MESSAGE Preparing classpath changed notification instance
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.574
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.575
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.576
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz instance false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.577
+!MESSAGE Preparing classpath changed notification jsp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.578
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.578
+!MESSAGE classpath=33 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.580
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz jsp false 33
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.581
+!MESSAGE Preparing classpath changed notification loop
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.582
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.583
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.583
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz loop false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.584
+!MESSAGE Preparing classpath changed notification method
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.585
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.586
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.587
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz method false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.587
+!MESSAGE Preparing classpath changed notification orientation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.589
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.589
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz orientation false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.590
+!MESSAGE Preparing classpath changed notification standardClass
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.591
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.592
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.592
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz standardClass false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.593
+!MESSAGE Preparing classpath changed notification variable
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.593
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.594
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.595
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz variable false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.595
+!MESSAGE Preparing classpath changed notification vrietyArray
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.596
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.596
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.597
+!MESSAGE buffering callback sts4.classpath.fHKvdCZz vrietyArray false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.598
+!MESSAGE executing callback sts4.classpath.fHKvdCZz 16 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:54:17.671
+!MESSAGE executing callback sts4.classpath.fHKvdCZz SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:55:52.861
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fHKvdCZz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:55:52.862
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fHKvdCZz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:55:52.862
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-14 20:55:52.863
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fHKvdCZz => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-02-14 20:55:54.231
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
