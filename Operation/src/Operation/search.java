@@ -34,17 +34,17 @@ public class search extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 
-		Connection Connect = null;
+		Connection connect = null;
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 
-			Connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/task1?serverTimezone=JST","Kensaku-Tech","Nekshizu21");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/task1?serverTimezone=JST","Kensaku-Tech","Nekshizu21");
 
 			String findname = request.getParameter("findname");
 
 			String sql = "SELECT * FROM employee WHERE name LIKE ?";
-			PreparedStatement ps = Connect.prepareStatement(sql);
+			PreparedStatement ps = connect.prepareStatement(sql);
 
 			ps.setString(1,"%"+ findname + "%");
 
@@ -76,9 +76,9 @@ public class search extends HttpServlet {
 		}catch(SQLException | ClassNotFoundException | NumberFormatException e) {
 			e.printStackTrace();
 		}finally {
-			if(Connect != null) {
+			if(connect != null) {
 				try {
-					Connect.close();
+					connect.close();
 				}catch(SQLException e) {
 					e.printStackTrace();
 				}

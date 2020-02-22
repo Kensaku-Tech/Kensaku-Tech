@@ -27,16 +27,25 @@ public class register extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+
 
 		response.setContentType("text/html; charset=UTF-8");
 		request.setCharacterEncoding("UTF-8");
 
-		Connection Connect = null;
+		Connection connect = null;
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 
-			Connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/task1?serverTimezone=JST","Kensaku-Tech","Nekshizu21");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/task1?serverTimezone=JST","Kensaku-Tech","Nekshizu21");
 
 			String stID = request.getParameter("ID");
 			String stBirthday = request.getParameter("birthday");
@@ -48,7 +57,7 @@ public class register extends HttpServlet {
 			Integer age = Integer.parseInt(stAge);
 
 			String sql = "INSERT INTO employee(id,name,birthday,age) VALUES(?,?,?,?)";
-			PreparedStatement ps = Connect.prepareStatement(sql);
+			PreparedStatement ps = connect.prepareStatement(sql);
 			ps.setInt(1,ID);
 			ps.setString(2,name);
 			ps.setDate(3,sqlbirthday);
@@ -64,23 +73,15 @@ public class register extends HttpServlet {
 			e.printStackTrace();
 
 		}finally {
-			if(Connect != null) {
+			if(connect != null) {
 				try {
-					Connect.close();
+					connect.close();
 				}catch(SQLException e) {
 					e.printStackTrace();
 				}
 			}
 		}
 
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
 	}
 
 }

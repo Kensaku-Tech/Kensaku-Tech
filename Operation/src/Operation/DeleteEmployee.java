@@ -26,18 +26,26 @@ public class DeleteEmployee extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 
-		Connection Connect = null;
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+		Connection connect = null;
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 
-			Connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/task1?serverTimezone=JST","Kensaku-Tech","Nekshizu21");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/task1?serverTimezone=JST","Kensaku-Tech","Nekshizu21");
 
 			String stID = request.getParameter("ID");
 			Integer ID = Integer.parseInt(stID);
 
 			String sql = "DELETE FROM employee WHERE id = ?";
-			PreparedStatement ps = Connect.prepareStatement(sql);
+			PreparedStatement ps = connect.prepareStatement(sql);
 
 			ps.setInt(1,ID);
 
@@ -49,24 +57,15 @@ public class DeleteEmployee extends HttpServlet {
 			e.printStackTrace();
 		}finally {
 
-			if(Connect != null) {
+			if(connect != null) {
 				try {
-					Connect.close();
+					connect.close();
 
 				}catch(SQLException e) {
 					e.printStackTrace();
 				}
 			}
 		}
-
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
 	}
 
 }
