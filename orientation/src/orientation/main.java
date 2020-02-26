@@ -3,7 +3,6 @@ package orientation;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		System.out.println("インスタンスを生成していない状態");
 		System.out.println(Person.wallet);

@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class task7 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		System.out.println("病院に行く曜日を入力してください。");
 		System.out.println("【日曜,月曜,火曜,水曜,木曜,金曜,土曜】");

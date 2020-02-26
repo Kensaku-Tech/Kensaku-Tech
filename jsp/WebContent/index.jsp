@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>JSP</title>
 </head>
 <body>
 	<input type="button" value="HelloServlet"
@@ -16,7 +16,7 @@
 	</p>
 
 	<input type="button" value="占う" onClick="location.href ='task4'">
-	
+
 
 </body>
 </html>

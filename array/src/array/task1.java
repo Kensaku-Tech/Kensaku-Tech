@@ -3,7 +3,6 @@ package array;
 public class task1 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		int[]array = new int[11];
 		array[0] = 4;

@@ -3,7 +3,6 @@ package calc;
 public class task2 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		int Sum = 10+12+13;
 		System.out.println("合計:" + Sum );

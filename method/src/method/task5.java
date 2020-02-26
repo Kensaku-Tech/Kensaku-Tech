@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class task5 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		ArrayList<String> N = new ArrayList<>();
 
@@ -20,16 +19,16 @@ public class task5 {
 
 	public static boolean trueorfalse(ArrayList a) {
 
-		boolean TorF;
+		boolean true_false;
 		if(a.contains(null)) {
-			TorF = true;
+			true_false = true;
 		}else{
-			TorF = false;
+			true_false = false;
 		}
 
-		System.out.println(TorF);
+		System.out.println(true_false);
 
-		return TorF;
+		return true_false;
 
 	}
 

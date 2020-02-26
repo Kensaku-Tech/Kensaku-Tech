@@ -5,16 +5,11 @@ import java.util.Scanner;
 public class task5 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		Scanner sc = new Scanner(System.in);
 		int numA = sc.nextInt();
-
-		Scanner sc2 = new Scanner(System.in);
-		int numB = sc2.nextInt();
-
-		Scanner sc3 = new Scanner(System.in);
-		int numC = sc3.nextInt();
+		int numB = sc.nextInt();
+		int numC = sc.nextInt();
 
 		System.out.println("numA:" + numA);
 		System.out.println("numB:" + numB);
@@ -28,10 +23,6 @@ public class task5 {
 			System.out.println("最大値:" + numC);
 		}
 		sc.close();
-		sc2.close();
-		sc3.close();
-
-
 
 	}
 

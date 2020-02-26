@@ -3,7 +3,6 @@ package method;
 public class task4 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		System.out.println("---①文字列のみの場合---");
 		overload("文字列1","文字列2");
@@ -19,7 +18,7 @@ public class task4 {
 	}
 
 	public static void overload(int c , int d) {
-		System.out.println(c * d);
+		System.out.println(c + d);
 	}
 
 	public static void overload(double e , double f) {

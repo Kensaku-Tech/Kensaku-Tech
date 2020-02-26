@@ -3,7 +3,6 @@ package method;
 public class task2 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		//課題1の回答 A,B
 

@@ -3,7 +3,6 @@ package variable;
 public class task3 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		System.out.println("変換前");
 		int intNum = 219;
@@ -13,13 +12,10 @@ public class task3 {
 		System.out.println(doubleNum);
 		System.out.println(longNum);
 
-			//ここまで変換前
-
 		System.out.println("変換後");
 		long intNum2 = intNum;
 		float doubleNum2 = (float) doubleNum;
 		double longNum2 = longNum;
-
 		System.out.println(intNum2);
 		System.out.println(doubleNum2);
 		System.out.println(longNum2);

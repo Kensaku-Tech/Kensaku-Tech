@@ -6,7 +6,6 @@ import java.util.Calendar;
 public class task7 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		Calendar now = Calendar.getInstance();
 		SimpleDateFormat today = new SimpleDateFormat("yyyy年MM月dd日");

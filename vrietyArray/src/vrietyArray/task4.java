@@ -6,7 +6,6 @@ import java.util.HashMap;
 public class task4 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		ArrayList <Integer>num = new ArrayList<>();
 
@@ -33,18 +32,18 @@ public class task4 {
 		num.add(20,215);
 		num.add(21,83);
 
-		ArrayList <Integer> G = new ArrayList<>();
-		ArrayList <Integer> K = new ArrayList<>();
+		ArrayList <Integer> even = new ArrayList<>();
+		ArrayList <Integer> odd = new ArrayList<>();
 		HashMap<String,ArrayList<Integer>> number = new HashMap<>();
 
 		for(int i = 0; i <= 21; i++) {
 			int q = num.get(i);
 			if(q % 2 == 0) {
-				G.add(q);
-				number.put("偶数", G);
+				even.add(q);
+				number.put("偶数", even);
 			}else {
-				K.add(q);
-				number.put("奇数", K);
+				odd.add(q);
+				number.put("奇数", odd);
 			}
 		}
 

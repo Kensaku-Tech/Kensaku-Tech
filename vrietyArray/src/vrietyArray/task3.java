@@ -5,7 +5,6 @@ import java.util.HashMap;
 public class task3 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		HashMap<String,Integer> fruit = new HashMap<>(4);
 

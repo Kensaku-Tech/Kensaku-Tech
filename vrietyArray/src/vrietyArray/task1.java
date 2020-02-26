@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class task1 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		ArrayList<String> prefec = new ArrayList<>();
 		prefec.add("北海道");

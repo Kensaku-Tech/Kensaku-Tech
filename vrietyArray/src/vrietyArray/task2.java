@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public abstract class task2 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		ArrayList <Integer> num = new ArrayList<>();
 
@@ -24,19 +23,19 @@ public abstract class task2 {
 		num.add(12,48);
 		num.add(13,60);
 
-		ArrayList<Integer> G = new ArrayList<>();
-		ArrayList<Integer> K = new ArrayList<>();
+		ArrayList<Integer> even = new ArrayList<>();
+		ArrayList<Integer> odd = new ArrayList<>();
 
 		for(int i = 0; i <= 13; i++) {
 			int q = num.get(i);
 			if(q % 2 == 0) {
-				G.add(q);
+				even.add(q);
 			}else {
-				K.add(q);
+				odd.add(q);
 			}
 		}
-	System.out.println("奇数:" + K);
-	System.out.println("偶数:" + G);
+	System.out.println("奇数:" + even);
+	System.out.println("偶数:" + odd);
 
 
 	}

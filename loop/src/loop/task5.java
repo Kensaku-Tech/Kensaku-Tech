@@ -3,7 +3,6 @@ package loop;
 public class task5 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		//1の段
 		int num1 = 1;

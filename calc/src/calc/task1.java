@@ -3,7 +3,6 @@ package calc;
 public class task1 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 
 		int taskone = 3+2*6+5;
 		System.out.println("修正前:" + taskone);
