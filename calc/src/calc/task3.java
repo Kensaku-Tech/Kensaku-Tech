@@ -18,11 +18,11 @@ public class task3 {
 		int sum = num + num2 + num3;
 		System.out.println("合計:" + sum );
 
-		double TaskOne = 3.0;
-		int TaskTwo = (int) TaskOne;
+		double threeP = 3.0;
+		int three = (int) threeP;
 
-		System.out.println("平均(3で割った時:)" + sum / TaskTwo);
-		System.out.println("平均(3.0で割った時:)" + sum / TaskOne);
+		System.out.println("平均(3で割った時:)" + sum / three);
+		System.out.println("平均(3.0で割った時:)" + sum / threeP);
 
 		sc.close();
 

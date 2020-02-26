@@ -4,11 +4,11 @@ public class task1 {
 
 	public static void main(String[] args) {
 
-		int taskone = 3+2*6+5;
-		System.out.println("修正前:" + taskone);
+		int calc = 3+2*6+5;
+		System.out.println("修正前:" + calc);
 
-		taskone = (3+2)*6+5;
-		System.out.println("修正後:" + taskone);
+		calc = (3+2)*6+5;
+		System.out.println("修正後:" + calc);
 
 		//ここまで1番目
 
