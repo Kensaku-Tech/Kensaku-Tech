@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>オススメの犬種</title>
+</head>
+<body>
+	<font face="Yu Gothic">
+		<h1>あなたにオススメの犬種はこちら！</h1>
+		<table border="1" bordercolor="#8b4513" bgcolor="#fff8dc">
+			<thead>
+				<tr>
+					<th>犬種</th>
+					<th>性格</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="dogs : ${dogs}" th:object="${dogs}">
+					<td th:text="*{species}"></td>
+					<td th:text="*{specialty}"></td>
+				</tr>
+		</table>
+	</font>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<link th:href="@{/style.css}" rel="stylesheet" type="text/css" />
+<title>犬種検索</title>
+</head>
+<body>
+	<form action="/search" method="GET">
+		<div>
+			毛の長さを選択してください </br> 短毛:<input type="radio" name="hair" th:value="短毛" /></br>
+			長毛:<input type="radio" name="hair" th:value="長毛" /></br>
+		</div>
+
+		<div>
+			身体の大きさを選択してください</br> 大型:<input type="radio" name="size" value="大型" /></br> 中型:<input
+				type="radio" name="size" value="中型" /></br> 小型:<input type="radio"
+				name="size" value="小型" /></br> 超小型:<input type="radio" name="size"
+				value="超小型" /></br>
+		</div>
+
+		<div>
+			性格を選択してください</br> 穏やか:<input type="radio" name="specialties" value="穏やか" /></br>
+			活発:<input type="radio" name="specialties" value="活発" /></br> 勇敢:<input
+				type="radio" name="specialties" value="勇敢" /></br> 忠実:<input
+				type="radio" name="specialties" value="忠実" /></br>他犬にフレンドリー<input
+				type="radio" name="specialties" value="他犬にフレンドリー" /></br>
+		</div>
+
+		<div>
+			あなたにオススメの犬種は？</br> <input type="submit" value="GO" />
+		</div>
+
+	</form>
+
+</body>
+</html>

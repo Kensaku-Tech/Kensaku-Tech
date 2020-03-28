@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>犬の検索</title>
+<style>
+body {
+	background: #eee8aa;
+	font-family: Yu Gothic;
+}
+
+div {
+	background: #fff8dc;
+	width: 300px;
+	border: 1px solid #8b4513;
+	text-align: center;
+	margin: 30px;
+}
+</style>
+</head>
+<body>
+	<form action="/portfolio/Dogsearch" method="GET">
+		<div class="div">
+			<p>毛の長さを選んで下さい</p>
+			<p>
+				短毛:<input type="radio" name="hair" value="短毛"> 長毛<input
+					type="radio" name="hair" value="長毛">
+			</p>
+		</div>
+
+		<div class="div">
+			<p>大きさを選んで下さい</p>
+			<p>
+				大型:<input type="radio" name="size" value="大型"> 中型:<input
+					type="radio" name="size" value="中型"> 小型:<input type="radio"
+					name="size" value="小型"> 超小型:<input type="radio" name="size"
+					value="超小型">
+			</p>
+		</div>
+
+		<div>
+			<p>あなたにオススメの犬種は？</p>
+			<p>
+				<input type="submit" value="GO" onClick="location.href='Dogsearch'">
+			</p>
+		</div>
+	</form>
+</body>
+</html>

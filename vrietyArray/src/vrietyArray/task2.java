@@ -34,8 +34,8 @@ public abstract class task2 {
 				odd.add(q);
 			}
 		}
-	System.out.println("偶数:" + even);
-	System.out.println("奇数:" + odd);
+		System.out.println("偶数:" + even);
+		System.out.println("奇数:" + odd);
 
 
 	}
